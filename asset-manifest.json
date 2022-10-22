@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/yuliia-andriitsova/goit-react-hw-02-phonebook/static/css/main.7acaea2f.css",
-    "main.js": "/yuliia-andriitsova/goit-react-hw-02-phonebook/static/js/main.66075244.js",
+    "main.js": "/yuliia-andriitsova/goit-react-hw-02-phonebook/static/js/main.c03caf44.js",
     "index.html": "/yuliia-andriitsova/goit-react-hw-02-phonebook/index.html",
     "main.7acaea2f.css.map": "/yuliia-andriitsova/goit-react-hw-02-phonebook/static/css/main.7acaea2f.css.map",
-    "main.66075244.js.map": "/yuliia-andriitsova/goit-react-hw-02-phonebook/static/js/main.66075244.js.map"
+    "main.c03caf44.js.map": "/yuliia-andriitsova/goit-react-hw-02-phonebook/static/js/main.c03caf44.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.66075244.js"
+    "static/js/main.c03caf44.js"
   ]
 }
