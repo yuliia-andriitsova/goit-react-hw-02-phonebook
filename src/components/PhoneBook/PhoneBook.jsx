@@ -7,14 +7,14 @@ export class PhoneBook extends Component {
     number: '',
   };
 
+  onChangeName = event => {
+    this.setState({ [event.target.name]: event.target.value });
+  };
+
   handleSubmit = event => {
     event.preventDefault();
     this.props.handleAddContact(this.state.name, this.state.number);
     this.setState({ name: '', number: '' });
-  };
-
-  onChangeName = event => {
-    this.setState({ [event.target.name]: event.target.value });
   };
 
   render() {
@@ -43,13 +43,6 @@ export class PhoneBook extends Component {
           />
           <button type="submit">Add contact</button>
         </form>
-        <input
-          type="text"
-          name="filter"
-          onChange={this.props.onFilterName}
-          // value={this.state.name}
-          value={this.props.filter}
-        />
       </>
     );
   }
