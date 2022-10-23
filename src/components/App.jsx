@@ -68,6 +68,8 @@ export class App extends Component {
           fontSize: 15,
           color: '#010101',
           gap: 10,
+          border: '2 px solid red',
+          padding: '50px',
         }}
       >
         <PhoneBook
