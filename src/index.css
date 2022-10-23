@@ -20,7 +20,6 @@ form {
   display: flex;
   flex-direction: column;
   width: 300px;
-  justify-content: space-between;
 }
 
 button {
@@ -32,4 +31,5 @@ button {
 li {
   display: flex;
   gap: 10px;
+  justify-content: space-between;
 }
