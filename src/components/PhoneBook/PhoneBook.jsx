@@ -49,6 +49,5 @@ export class PhoneBook extends Component {
 }
 
 PhoneBook.propTypes = {
-  name: PropTypes.string,
-  number: PropTypes.number,
+  handleAddContact: PropTypes.func.isRequired,
 };

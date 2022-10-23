@@ -88,7 +88,3 @@ export class App extends Component {
     );
   }
 }
-
-App.propTypes = {
-  contacts: arrayOf(PropTypes.shape({ id: PropTypes.number })),
-};
