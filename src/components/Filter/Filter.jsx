@@ -11,6 +11,6 @@ export function Filter({ filter, onFilterName }) {
 }
 
 Filter.propTypes = {
-  filter: PropTypes.string,
-  onFilterName: PropTypes.func,
+  filter: PropTypes.string.isRequired,
+  onFilterName: PropTypes.func.isRequired,
 };
