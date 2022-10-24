@@ -3,20 +3,8 @@ import { PhoneBook } from './PhoneBook';
 import { Filter } from './Filter';
 import { ContactList } from './ContactList';
 import { nanoid } from 'nanoid';
-import PropTypes, { arrayOf } from 'prop-types';
 
 export class App extends Component {
-  static propTypes = {
-    filter: PropTypes.string,
-    contacts: PropTypes.arrayOf(
-      PropTypes.shape({
-        id: PropTypes.string.isRequired,
-        name: PropTypes.string.isRequired,
-        number: PropTypes.string.isRequired,
-      })
-    ),
-  };
-
   state = {
     contacts: [
       { id: 'id-1', name: 'Rosie Simpson', number: '459-12-56' },
